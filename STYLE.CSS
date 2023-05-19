@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(72, 10, 218);
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1{
+  font-family: cursive;
+  font-size: 56px;
+  color: darkgoldenrod;
+}
+#number h2{
+  font-family: cursive;
+  font-size: 72px;
+  color: rgb(38, 36, 33);
+}
+#button_one {
+    padding: 10px 12px;
+    background: cadetblue;
+    border-radius: 23px;
+    border: 2px solid darkgrey;
+    color: darkblue;
+    font-size: 23px;
+}
+#button_two {
+  padding: 10px 12px;
+  background: cadetblue;
+  border-radius: 23px;
+  border: 2px solid darkgrey;
+  color: darkblue;
+  font-size: 23px;
+  margin-left: 23px;
+}
+#button_three {
+  padding: 10px 12px;
+  background: cadetblue;
+  border-radius: 23px;
+  border: 2px solid darkgrey;
+  color: darkblue;
+  font-size: 23px;
+  margin-left: 23px;
+} 
+#button_one:hover {
+  padding: 10px 12px;
+  background: rgb(202, 218, 203);
+  border-radius: 23px;
+  border: 2px solid rgb(202, 12, 12);
+  margin-top: 12px;
+  color: rgb(243, 237, 238);
+  font-size: 23px;
+}
+#button_two:hover {
+  padding: 10px 12px;
+  background: rgb(32, 223, 25);
+  border-radius: 23px;
+  border: 2px solid rgb(192, 43, 43);
+  color: rgb(110, 110, 235);
+  font-size: 23px;
+  margin-top: 12px;
+  margin-left: 23px;
+  }
+#button_three:hover {
+  padding: 10px 12px;
+  background: rgb(25, 229, 236);
+  border-radius: 23px;
+  border: 2px solid rgb(29, 233, 70);
+  color: rgb(9, 9, 14);
+  margin-top: 12px;
+  font-size: 23px;
+  margin-left: 23px;
+  } 
+
+.positive {
+  color: rgb(17, 230, 17);
+  font-size: 100px;
+}
+.zero {
+  color: rgb(199, 192, 192);
+  font-size: 100px;
+}
+.negative {
+  color: rgb(255, 0, 0);
+  font-size: 100px;
+}
